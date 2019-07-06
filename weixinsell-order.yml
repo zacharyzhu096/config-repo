@@ -1,10 +1,10 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
 spring:
-  application:
-    name: weixinsell-order
+#  application:
+#    name: weixinsell-order
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://cdb-0n38vbpn.gz.tencentcdb.com:10054/weixinsell?useUnicode=true&characterEncoding=UTF-8
